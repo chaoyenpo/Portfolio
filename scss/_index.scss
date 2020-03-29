@@ -98,7 +98,7 @@
         display: block;
         width: 75%;
         height: 0;
-        padding-top: 40%;
+        padding-top: 36%;
         position: absolute;
         top: 0;
         right: 0;
@@ -203,6 +203,9 @@
         color: $swork-color;
         font-weight: normal;
     }
+    img{
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    }
 }
 
 #contact{
@@ -291,9 +294,6 @@
     }
     .w_item{
         flex: 360px 0 0;
-        img{
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
-        }
     }
 
     #contact{
