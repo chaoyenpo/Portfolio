@@ -252,7 +252,7 @@
 
 @mixin index--sm() {
     #about {
-        padding: 6rem 1.5rem 3rem;
+        padding: 6rem 1.5rem 4.5rem;
 
         &::before {
             width: 60%;
@@ -283,19 +283,23 @@
         height: 6rem;
     }
     #work{
-        padding: 4.5rem 1.5rem 1.5rem;
+        padding: 3rem 1.5rem 1.5rem;
         flex-wrap: wrap;
         &::before{
-            width: 100%;
+            width: 80%;
         }
     }
     .w_item{
         flex: 360px 0 0;
+        img{
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+        }
     }
 
     #contact{
         flex-direction: column;
         align-items: flex-start;
+        padding: 2rem 1.5rem ;
     }
     .c_btn{
         margin-top: 1.5rem;
