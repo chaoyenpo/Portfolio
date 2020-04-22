@@ -54,8 +54,6 @@
     color: white;
     font-weight: 300;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
     font-size: 20px;
 
@@ -88,7 +86,7 @@
 }
 
 #about {
-    padding: 6rem 4.5rem 9rem;
+    padding: 6rem 4.5rem 18rem;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -96,9 +94,9 @@
     &::before {
         content: '';
         display: block;
-        width: 75%;
+        width: 78%;
         height: 0;
-        padding-top: 36%;
+        padding-top: 32%;
         position: absolute;
         top: 0;
         right: 0;
@@ -140,8 +138,8 @@
     p {
         text-align: left;
 
-        &:not(last-child) {
-            margin-bottom: 1rem;
+        &:not(:last-child) {
+            margin-bottom: 1.75rem;
         }
     }
 }
@@ -168,7 +166,7 @@
         position: absolute;
         bottom: -30px;
         left: 10%;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -176,7 +174,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 3rem 4.5rem 3rem;
+    padding: 3rem 4.5rem 6rem;
     position: relative;
     
     &:before{
@@ -214,7 +212,7 @@
     align-items: center;
     background-color: $font-color;
     color: white;
-    padding: 2rem 3rem;
+    padding: 4rem 3rem;
     &:hover{
         opacity: .95;
     }
@@ -233,6 +231,7 @@
 
 @mixin index--md() {
     #about {
+        padding: 6rem 1.5rem 12rem;
         flex-direction: column;
 
         &::before {
